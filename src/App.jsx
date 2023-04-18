@@ -32,7 +32,7 @@ function App() {
       <h1 className="container-title">CEP Finder</h1>
 
       <div className="container-input">
-        <input type="text" placeholder="Enter your zip code..." value={input} onChange={(e) => setInput(e.target.value)} />
+        <input type="text" placeholder="Enter your CEP..." value={input} onChange={(e) => setInput(e.target.value)} />
         <button className="container-input-searchButton" onClick={handleSearch}>
           <FiSearch size={25} color="#fff" />
         </button>
